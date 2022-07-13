@@ -100,7 +100,7 @@ modelo_final_fit <- finalize_workflow(
 ) %>%
   fit(
     data = datos_train
-  ) %>%
+  ) 
 
 #Error del test del modelo final.
 
